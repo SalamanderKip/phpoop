@@ -20,3 +20,5 @@ class Category {
         
     }
 }
+
+$cg = new Category;

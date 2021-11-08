@@ -1,6 +1,7 @@
 <?php
-Class Database {
 
+Class Database {
+    
     private $host = "localhost";
     private $dbName = "opdracht3oop";
     private $userName = "root";
