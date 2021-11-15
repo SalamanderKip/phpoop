@@ -1,11 +1,13 @@
 <?php
-class Read {
+class Read
+{
     private $db;
     private $tableItem;
     private $tableName;
     private $rowIndex;
 
-    public function __construct($conn, String $tableItem, String $tableName, String $rowIndex) {
+    public function __construct($conn, String $tableItem, String $tableName, String $rowIndex)
+    {
         $this->db = $conn;
         $this->tableItem = $tableItem;
         $this->tableName = $tableName;
@@ -13,7 +15,9 @@ class Read {
         $this->executeRead();
     }
 
-    public function executeRead() {
+    public function executeRead()
+    {
+
         $query = "SELECT " . $this->tableItem . " FROM " . $this->tableName;
         $result = $this->db->connection->query($query);
         $outputArray = array();

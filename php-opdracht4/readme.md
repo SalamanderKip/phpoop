@@ -9,4 +9,6 @@ stap 3 -
 de site is online te bekijken: https://salamanderkip.nl/php-opdracht4/
 dat is het
 
+Met phpstan krijg ik geen error's
+
 -------------
